@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Champ University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="responsive.css">
+
+</head>
+
+<body>
+
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="close-icon" onclick="hiddenMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="menu-icon" onclick="showMenu()">&#8801;</i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <section class="about-us">
+        <div class="about-card">
+            <h1>We are the world's largest university</h1>
+            <p>Our whole educational system, from the elementary schools to the universities, is increasingly turning out people who have never heard enough conflicting arguments to develop the skills and discipline required to produce a coherent analysis, based on logic and evidence. The implications of having so many people so incapable of confronting opposing arguments with anything besides ad hominem responses reach far.</p>
+            <a href="" class="about-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-card">
+            <img src="/images/about.jpg" alt="">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We recognize that earning a college degree is a big decision. Our mission is to help you get the best possible education for your money.<br>We understand that the best college for any student is the one that suits your schedule and budget.</p>
+
+        <div class="icons">
+            <i class="fo-img" class="facebook"><img src="/images/footer1.png" alt=""></i>
+            <i class="fo-img" class="instagram"><img src="/images/footer2.png" alt=""></i>
+            <i class="fo-img" class="twitter"><img src="/images/footer3.png" alt=""></i>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript for slide menu -->
+
+    <script>
+        var navlinks = document.getElementById("nav-links")
+
+        function hiddenMenu() {
+            navlinks.style.right= "-200px";
+        }
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+
+    </script>
+
+</body>
+
+</html>

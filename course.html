@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Champ University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="responsive.css">
+
+</head>
+
+<body>
+
+    <section class="course-header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="close-icon" onclick="hiddenMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="menu-icon" onclick="showMenu()">&#8801;</i>
+        </nav>
+
+       <h1>Courses</h1>
+
+    </section>
+
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>We offer more than 340 courses across a range of study levels and disciplines.</p>
+
+        <div class="course-cards">
+            <div class="card">
+                <h3>Diploma/ITI</h3>
+                <p>A Diploma is more in-depth than a certificate and can take a little longer to earn, but still usually less than a year. Diploma programs are also often more technical.The classes taken in conjunction with earning a Diploma allow you to gain a thorough understanding of your field of study.</p>
+            </div>
+            <div class="card">
+                <h3>Degree</h3>
+                <p>Students who desire a career in a specific field (such as law, pharmaceuticals, medicine, or education) may opt to pursue a professional degree. These programs emphasize hands-on learning and often require students to obtain substantial real-world experience prior to graduation.</p>
+            </div>
+            <div class="card">
+                <h3>Post Graduation</h3>
+                <p>The master’s degree which typically correlates with advanced study in fields that relate to science and mathematics. Courses in these programs often require extensive lab work or research and culminate with thesis or capstone projects, as well.</p>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+
+    <!-- facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We provide a Collage impact overall learning process as well as the mental and physical growth of the students.</p>
+
+        <div class="facilities-card">
+            <div class="fac-card">
+                <img src="/images/libra.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>By providing free access to educational, news, and historical resources, libraries help keep the public informed with facts, rather than confused with fiction.</p>
+            </div>
+            <div class="fac-card">
+                <img src="/images/ground1.jpg" alt="">
+                <h3>Biggest Play Ground</h3>
+                <p>We are provide safe spaces where students develop crucial physical, social, emotional and imaginative skills necessary to gain self-confidence, improve coordination, and advance critical thinking capabilities.</p>
+            </div>
+            <div class="fac-card">
+                <img src="/images/canteen.jpg" alt="">
+                <h3>Best Canteen</h3>
+                <p>A wide variety of food is in the offering at the lowest rates and keeps student pretty pleased.The canteen is seen as the hub of all activities with students who get to break free from routine life to have a quick bite of food.</p>
+            </div>
+             <div class="fac-card">
+                <img src="/images/buses.jpg" alt="">
+                <h3>Buses</h3>
+                <p>The university has 90 dedicated buses and it also provides pick up and drop services to the students and staff from the campus to the different parts of the city on  the approved routes which covers a large part of the city.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We recognize that earning a college degree is a big decision. Our mission is to help you get the best possible education for your money.<br>We understand that the best college for any student is the one that suits your schedule and budget.</p>
+
+    <div class="icons">
+        <i class="fo-img" class="facebook"><img src="/images/footer1.png" alt=""></i>
+        <i class="fo-img" class="instagram"><img src="/images/footer2.png" alt=""></i>
+        <i class="fo-img" class="twitter"><img src="/images/footer3.png" alt=""></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+   <!-- javascript for slide menu -->
+
+   <script>
+    var navlinks = document.getElementById("nav-links")
+
+    function hiddenMenu() {
+        navlinks.style.right= "-200px";
+    }
+
+    function showMenu() {
+        navlinks.style.right = "0";
+    }
+
+
+</script>
+
+</body>
+
+</html>

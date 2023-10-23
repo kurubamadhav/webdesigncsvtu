@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Champ University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="responsive.css">
+
+</head>
+
+<body>
+
+    <section class="contact-header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="close-icon" onclick="hiddenMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="menu-icon" onclick="showMenu()">&#8801;</i>
+        </nav>
+
+        <h1>Contact Us</h1>
+
+    </section>
+
+
+    <section class="location">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654458.4791181767!2d74.41120925782411!3d23.24354257513564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1647787869946!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+
+    <section class="contact-us">
+        <div class="information">
+            <div class="add">
+                <i><img src="" alt=""></i>
+                <span>
+                    <h5>XYZ Road , ABC Building</h5>
+                    <p>Indore, Madhya Pradesh, IN</p>
+                </span>
+            </div>
+
+            <div class="phone">
+                <i><img src="" alt=""></i>
+                <span>
+                    <h5>+91 975541XXXX</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+
+            <div class="query">
+                <i><img src="" alt=""></i>
+                <span>
+                    <h5>vj975541@gmail.com</h5>
+                    <p>Email Us Your Query</p>
+                </span>
+            </div>
+            
+            
+        </div>
+
+            <div class="detail-info">
+
+                <form action="">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="text"  placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="send-info">Send Message</button>
+
+                </form>
+
+
+            </div>
+
+
+
+
+    </section>
+
+
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We recognize that earning a college degree is a big decision. Our mission is to help you get the best possible education for your money.<br>We understand that the best college for any student is the one that suits your schedule and budget.</p>
+
+        <div class="icons">
+            <i class="fo-img" class="facebook"><img src="/images/footer1.png" alt=""></i>
+            <i class="fo-img" class="instagram"><img src="/images/footer2.png" alt=""></i>
+            <i class="fo-img" class="twitter"><img src="/images/footer3.png" alt=""></i>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript for slide menu -->
+
+    <script>
+        var navlinks = document.getElementById("nav-links")
+
+        function hiddenMenu() {
+            navlinks.style.right= "-200px";
+        }
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
